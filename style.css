@@ -1,0 +1,29 @@
+nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #002366;
+    color: goldenrod;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+    margin: 4px;
+}
+
+.current {
+    border-bottom: 2px solid goldenrod;
+}
+
+.menu :hover{
+    color: white;
+}
+
+body {
+    background-color: #05358f;
+}
