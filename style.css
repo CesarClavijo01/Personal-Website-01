@@ -1,9 +1,14 @@
 nav {
+    position: fixed;
     justify-content: space-between;
     display: flex;
     align-items: center;
     background-color: #002366;
     color: goldenrod;
+    padding: 5px 15px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
 }
 
 .menu {
@@ -26,4 +31,51 @@ a {
 
 body {
     background-color: #05358f;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    width: 250px;
+    float: right;
+}
+
+main {
+    padding: 100px;
+    border: 3px solid darkgoldenrod;
+    margin: 40px;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.quote {
+    text-align: center;
+    margin: 150px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+p {
+    font-size: x-large;
+}
+
+footer { 
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #002366;
+    color: goldenrod;
+    padding: 5px 100px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.logo {
+    width: 50px;
+    background-color: #002366;
 }
