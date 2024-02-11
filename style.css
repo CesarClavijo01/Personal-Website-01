@@ -79,3 +79,7 @@ footer {
     width: 50px;
     background-color: #002366;
 }
+
+* {
+    box-sizing: border-box;
+}
