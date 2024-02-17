@@ -9,6 +9,7 @@ nav {
     left: 0px;
     right: 0px;
     top: 0px;
+    box-shadow: 3px 5px 12px -2px black;
 }
 
 .menu {
@@ -38,6 +39,8 @@ body {
 img {
     width: 250px;
     float: right;
+    box-shadow: 2px 3px 12px 2px black;
+    margin: 0.5em;
 }
 
 main {
@@ -45,6 +48,9 @@ main {
     border: 3px solid darkgoldenrod;
     margin: 40px;
     color: white;
+    box-shadow: 0 0 12px 2px black;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 h2 {
@@ -56,6 +62,7 @@ h2 {
     margin: 150px;
     font-size: 40px;
     font-style: italic;
+    text-shadow: 3px 4px 2px black;
 }
 
 p {
@@ -73,11 +80,13 @@ footer {
     left: 0px;
     right: 0px;
     bottom: 0px;
+    box-shadow: 4px 5px 12px 7px black;
 }
 
 .logo {
     width: 50px;
     background-color: #002366;
+    box-shadow: none;
 }
 
 .aboutImg {
@@ -96,11 +105,15 @@ section {
     background-color: #002366;
     padding: 20px;
     margin-top: 15px;
+    box-shadow: 0 0 12px 1px black;
 }
 
 .portfolioTitle {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid darkgoldenrod;
     display: inline-block;
+    margin-left: 6.5vw;
+    font-size: 3em;
+    text-shadow: 5px 8px 6px black;
 }
 
 .projects>h2 {
