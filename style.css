@@ -121,3 +121,29 @@ section {
     font-size: 30px;
     display: inline-block;
 }
+
+.ContactTitle {
+    margin-top: 3em;
+    left: 31vw;
+    position: relative;
+    border-bottom: 1px solid darkgoldenrod;
+    display: inline-block;
+    font-size: 3em;
+    text-shadow: 5px 8px 6px black;
+    color: white;
+}
+
+#form {
+    border: .2em solid darkgoldenrod;
+    display: inline-block;
+    padding: 2em;
+    position: absolute;
+    right: 20vw;
+    top: 29vh;
+    color: white;
+    font-size: 2rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
